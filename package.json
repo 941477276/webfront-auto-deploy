@@ -1,0 +1,35 @@
+{
+  "name": "webfront-auto-deploy",
+  "version": "1.0.0",
+  "description": "基于nodejs写的一个web前端自动发包小工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/941477276/webfront-auto-deploy.git"
+  },
+  "keywords": [
+    "前端自动发包",
+    "nodejs",
+    "node-ssh",
+    "远端服务器",
+    "auto-deploy",
+    "webfront",
+    "nodejs连接ssh",
+    "nodejs连接服务器"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/941477276/webfront-auto-deploy/issues"
+  },
+  "homepage": "https://github.com/941477276/webfront-auto-deploy#readme",
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "node-ssh": "^6.0.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  }
+}
